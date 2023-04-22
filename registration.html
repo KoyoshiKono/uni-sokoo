@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-soko/SignInAndSignUp</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-Soko</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="global.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <div class="NavBar"></div>
+        <div class="container">
+            <div class="row">
+                <div class="emptyCol col-lg-1"></div>
+                <div class="unisokoFlex col-lg-2">
+                    <a class="uniSoko"
+                        href="file:///C:/Users/zephyrus%20g14/OneDrive/Desktop/Uni-Soko/index.html">Uni-Soko</a>
+                </div>
+                <div class="emptyCol2 col-lg-5"></div>
+                <div class="registerAndLogin col-lg-2">
+                    <div>
+                        <img class="navbarImgOne" src="User.png" alt="(0_o)">
+                        <a class="registerText" href="registration.html">Register/Login</a>
+                    </div>
+                </div>
+                <div class="sellImg col-lg-2">
+                    <a class="sellLink" href="ads.html">
+                        <img class="navImgTwo" src="Add.png" alt="(?_?)">
+                        <a class="sellText" href="ads.html">Sell</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="emptySpaceForRegister container">
+        <div class="emptySpace22 row">
+            <div class="col-lg-12"></div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------->
+    <div id="ValidationForm">
+        <img class="rafikiImg" src="rafiki.png" alt="Oops!:(">
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <buttnon type="button" class="toggle-btn" onclick="register()"><b id="idid">Sing Up</b></buttnon>
+                    <buttnon type="button" class="toggle-btn" onclick="login()"><b id="idid">Sign In</b></buttnon>
+                </div>
+                <form id="register" class="input-group">
+                    <b class="inputText">Create an account</b>
+                    <p id="underInputText" class="lead text-muted">let's get started with your 30 days free
+                        trial
+                    </p>
+                    <input type="text" class="forInput input-filed" placeholder="Name" required>
+                    <input type="email" class="forInput input-filed" placeholder="Email" required>
+                    <input type="text" class="forInput input-filed" placeholder="Password" required>
+                    <input type="checkbox" class="check-box"><span class="span1">I agree to the terms &
+                        conditions</span>
+                    <button type="submit" id="changeSubmitBtn1" class="submit-btn">Crate account</button>
+                    <button type="submit" id="google" class="submit-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-google" viewBox="0 0 16 16">
+                            <path
+                                d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                        </svg>
+                        <b>Sign up with Google</b></button>
+                    <div class="UnderGoogleBtn">
+                        <p>Already have an account?</p><a href="" class="aTag">Sing In</a>
+                    </div>
+                </form>
+                <form id="login" class="inputGroupDoesntWork">
+                    <b class="inputText">Log In</b>
+                    <p id="underInputText" class="lead text-muted">Welcome back
+                    </p>
+                    <input type="text" class="forInput input-filed" placeholder="Name" required>
+                    <input type="text" class="forInput input-filed" placeholder="Password" required>
+                    <input type="checkbox" class="check-box"><span class="span2">Remember Password</span>
+                    <button type="submit" id="changeSubmitBtn1" class="submit-btn">Log In</button>
+                    <button type="submit" id="google" class="submit-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-google" viewBox="0 0 16 16">
+                            <path
+                                d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                        </svg>
+                        <b>Sign In with Google</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------------->
+    <!-- <div class="emptySpaceForRegister container">
+        <div class="emptySpace22 row">
+            <div class="col-lg-12"></div>
+        </div>
+    </div> -->
+    <div class="ImTired">
+        <div class="contact container">
+            <div class="contactRow row">
+                <div class="column1 col-lg-6">
+                    <div class="onlineShop">
+                        <b>Online-Shop</b>
+                    </div>
+                    <div id="underOnlineShop" class="lead text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit malesuada dapibus ut
+                        pulvinar
+                        neque
+                        arcu, commodo. Pharetra nisi egestas nisi fermentum. Sollicitudin egestas senectus
+                        pellentesque
+                        enim
+                        mauris vel odio commodo. Pellentesque orci vestibulum sed in molestie consequat.
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <b class="forContact">Contact Us</b>
+                    <div id="idk">
+                        <h6><img class="contactIcons" src="phone.png" alt="Oops!:(">+255 543720 174</h6>
+                        <h6><img class="contactIcons" src="gmail.png" alt="Oops!:(">koyoshikono@gmail.com</h6>
+                        <h6><img class="contactIcons" src="location.png" alt="Oops!:(">mizunokami</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <b class="forContact">About Us</b>
+                    <div class="underAbUs">
+                        <h6 class="support">Support</h6>
+                        <h6>Privacy & Policy</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let x = document.querySelector("#register");
+        let y = document.querySelector("#login");
+        let z = document.querySelector("#btn");
+
+        function login() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function register() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+.emptySpaceForRegister {
+    height: 137px;
+}
+
+.emptySpaceForRegister .row {
+    height: 100%
+}
+
+#ValidationForm {
+    width: 100%;
+    height: 750px;
+    width: 50%;
+}
+
+/* .registerPage {
+    width: 100%;
+    height: 710px;
+}
+
+.registerContainer {
+    height: 710px;
+}
+
+.registerContainer .row {
+    height: 100%;
+}
+
+.rafikin {
+    position: relative;
+    top: 10%;
+    width: 105%;
+    height: 500px;
+} */
+
+/*-----------------------------register/login------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+}
+
+.rafikiImg {
+    width: 101%;
+    height: 75%;
+    position: relative;
+    left: 14%;
+}
+
+.form-box {
+    width: 380px;
+    height: 600px;
+    position: relative;
+    margin: 0;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    left: 55%;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 264px;
+    margin: 35px auto;
+    position: relative;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+
+.toggle-btn {
+    padding: 10px 38px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#idid {
+    font-size: 15px;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 154px;
+    background: #ecf6fe;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.input-group {
+    position: absolute;
+    top: 85px;
+    height: 84%;
+
+}
+
+.inputGroupDoesntWork {
+    left: 450px;
+    position: absolute;
+    width: 280px;
+    top: 86px;
+    transition: all .5s ease 0s;
+}
+
+.forInput {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+#changeSubmitBtn1 {
+    width: 100%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: red;
+    color: white;
+    border: 0;
+    outline: none;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 6px;
+    border-radius: 10px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+
+}
+
+.span1 {
+    color: #777;
+    font-size: 12px;
+    bottom: 186px;
+    position: absolute;
+    left: 7%;
+}
+
+.span2 {
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+    color: #777;
+}
+
+#register {
+    left: 50px;
+    position: absolute;
+    width: 85%;
+    transition: all .5s ease 0s;
+}
+
+#login {
+    left: 450px;
+}
+
+.inputText {
+    font-size: 1.6rem;
+}
+
+#underInputText {
+    font-size: 0.9rem;
+    margin-bottom: 10%;
+}
+
+#google {
+    width: 100%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background: white;
+    color: red;
+    border: 0;
+    outline: none;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.aTag {
+    position: relative;
+    left: 2%;
+    text-decoration: none;
+    color: #62b9ff;
+}
+
+.UnderGoogleBtn {
+    display: flex;
+    position: relative;
+    left: 12%;
+}
+
+.forSecondForm {
+    left: 450px;
+    bottom: 444px;
+}

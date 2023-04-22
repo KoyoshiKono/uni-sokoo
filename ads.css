@@ -1,0 +1,8 @@
+.forSellBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #EAF6FF;
+    width: 100%;
+    height: 700px;
+}

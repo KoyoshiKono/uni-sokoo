@@ -1,0 +1,254 @@
+.twoStrangeBoxOnHomePage {
+    height: 300px;
+}
+
+.twoStrangeBoxOnHomePage .row {
+    height: 100%;
+}
+
+.spaceBetween2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.used {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.usedAndNew {
+    position: relative;
+    width: 590px;
+    right: 5px;
+}
+
+
+.services {
+    position: relative;
+    width: 590px;
+    right: 5px;
+}
+
+.anotherEmptySpace .row {
+    height: 120px;
+}
+
+.products2 {
+    display: none;
+}
+
+.products2 .row {
+    height: 385px;
+}
+
+.products .row {
+    height: 385px;
+}
+
+.productBox1 {
+    height: 313px;
+    width: 261px;
+    position: relative;
+    top: 9px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+
+.productBox1:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.tableWithDraws {
+    height: 200px;
+    width: 221px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.watches {
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 20%;
+}
+
+.sneakers {
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 9%;
+}
+
+.productBox2 {
+    height: 313px;
+    width: 261px;
+    position: relative;
+    top: 9px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+
+.productBox2:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.laptop {
+    position: relative;
+    right: 3px;
+    top: 20px;
+    height: 190.6px;
+}
+
+.mezza {
+    max-width: 230px;
+    position: relative;
+    top: 9%;
+    left: 22px;
+}
+
+.mezza2 {
+    max-width: 230px;
+    position: relative;
+    top: 12%;
+    left: 22px;
+}
+
+.mezza3 {
+    max-width: 230px;
+    position: relative;
+    top: 7%;
+    left: 22px;
+}
+
+.mezza4 {
+    max-width: 230px;
+    position: relative;
+    top: 6.5%;
+    left: 22px;
+}
+
+.productBox3 {
+    height: 313px;
+    width: 261px;
+    position: relative;
+    top: 9px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+
+.productBox3:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.table {
+    position: relative;
+    display: block;
+    max-height: 190px;
+    max-width: 261px;
+}
+
+.productBox4 {
+    height: 313px;
+    width: 261px;
+    position: relative;
+    top: 9px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+
+.productBox4:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+}
+
+.headphones {
+    width: 261px;
+    height: 208px;
+}
+
+
+
+.oneMoreSpaceBetwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linesAndButton {
+    display: block;
+    margin: auto;
+    transition: .3s linear;
+}
+
+.linesAndButton:hover {
+    opacity: .8;
+}
+
+.linesAndButton .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+
+}
+
+#lastButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#viewButton {
+    height: 75%;
+    width: 100%;
+    font-size: 21px;
+    color: black;
+}
+
+.line1 {
+    width: 103%;
+}
+
+.line1Width {
+    width: 41%;
+}
+
+.line2 {
+    width: 103%;
+    position: relative;
+    right: 3%;
+}
+
+.line2Width {
+    width: 41%;
+}
+
+
+.square {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 79%;
+    bottom: 12%;
+    background: #F12B2C;
+    border-radius: 4px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

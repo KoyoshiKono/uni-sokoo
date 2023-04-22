@@ -1,0 +1,152 @@
+#productWindow {
+    position: relative;
+    width: 100%;
+    height: 710px;
+    background: #FAFBFC;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+
+.con1 .row {
+    position: relative;
+    right: 3px;
+    height: 710px;
+}
+
+/*Products*/
+
+.tableWithDraws {
+    position: relative;
+    top: 4%;
+    width: 90%;
+}
+
+.whatAWatches {
+    position: relative;
+    left: 26%;
+    top: 4%;
+    width: 45%;
+}
+
+.eclipseForWatches {
+    position: relative;
+    height: 12.33px;
+    left: 40%;
+    top: 10%;
+}
+
+.eclipse {
+    position: relative;
+    height: 12.33px;
+    left: 45%;
+    top: 10%;
+}
+
+/*Description*/
+
+.squareProductPage {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 6%;
+    width: 40px;
+    height: 16px;
+    left: 53%;
+    background: #F12B2C;
+    border-radius: 4px;
+}
+
+.productName {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 11%;
+    left: 53%;
+    font-size: 28px;
+}
+
+.redTZS {
+    color: #FC0B0D;
+}
+
+#underTZS {
+    position: relative;
+    top: 26%;
+    left: 6%;
+    font-size: 15px;
+    color: #50CC98;
+}
+
+.description {
+    position: relative;
+    top: 30%;
+    left: 6%;
+}
+
+#wholeDescription {
+    position: relative;
+    font-size: 0.9rem;
+    width: 100%;
+    top: 33%;
+    left: 6%;
+}
+
+.square2 {
+    position: relative;
+    top: 36%;
+    height: 136px;
+    left: 6%;
+    width: 108%;
+    background: rgba(234, 246, 255, 0.39);
+}
+
+.inSquare2 {
+    position: relative;
+    left: 7%;
+    font-size: 20px;
+}
+
+.maleUser {
+    position: relative;
+    top: 21%;
+    right: 2%;
+}
+
+.malima {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+
+.locationUnderPersonPic {
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+.KKKT {
+    position: relative;
+    top: 43%;
+    left: 29%;
+    font-size: 15px;
+}
+
+#callBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 50%;
+    top: 47%;
+    left: 40%;
+    border-radius: 15px;
+}
+
+.someDiv {
+    position: relative;
+    width: 100%;
+    right: 6%;
+}
